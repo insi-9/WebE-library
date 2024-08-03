@@ -75,7 +75,7 @@ transparent;
 #fff;
   cursor: pointer;
 
-  font-size: 100%;
+
   line-height: 1.5;
   margin: 0;
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
@@ -99,8 +99,8 @@ transparent;
   border-radius: 999px;
   box-sizing: border-box;
   display: block;
-  font-weight: 900;
-  overflow: hidden;
+  font-weight: 800;
+  
   padding: 0.4rem 1.4rem;
   position: relative;
   text-transform: uppercase;
@@ -150,3 +150,85 @@ transparent;
         
         backdrop-filter: blur(10px);
       }
+
+      .btn-72,
+.btn-72 *,
+.btn-72 :after,
+.btn-72 :before,
+.btn-72:after,
+.btn-72:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-72 {
+  -webkit-tap-highlight-color: 
+transparent;
+  -webkit-appearance: button;
+  background-color: 
+#000;
+  background-image: none;
+  color: 
+#fff;
+  cursor: pointer;
+
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-72:disabled {
+  cursor: default;
+}
+.btn-72:-moz-focusring {
+  outline: auto;
+}
+.btn-72 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-72 [hidden] {
+  display: none;
+}
+.btn-72 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 0.4rem 1.4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-72:before {
+  --opacity: 0.2;
+  aspect-ratio: 1;
+  background: 
+#fff;
+  border-radius: 50%;
+  content: "";
+  left: 50%;
+  opacity: var(--opacity);
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 100%;
+  z-index: -1;
+}
+.btn-72:hover:before {
+  -webkit-animation: enlarge 1s forwards;
+  animation: enlarge 1s forwards;
+}
+@-webkit-keyframes enlarge {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(4);
+  }
+}
+@keyframes enlarge {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(4);
+  }
+}
