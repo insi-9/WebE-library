@@ -1,0 +1,234 @@
+s
+      .wrap-input-18 { 
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+      }
+
+      .wrap-input-18 .search {
+        margin: 5px;
+      }
+
+      .wrap-input-18 .search > div {
+        display: inline-block;
+        position: relative;
+      }
+
+      .wrap-input-18 .search > div:after {
+        content: "";
+        background: white;
+        width: 4px;
+        height: 40%;
+        position:absolute;
+        top: 18px;
+       right: 1px;
+        transform: rotate(138deg);
+      }
+
+      .wrap-input-18 .search > div > input {
+        color: white;
+        font-size: 16px;
+        background: transparent;
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        border: solid 3px white;
+        outline: none;
+        border-radius: 35px;
+        transition: width 0.5s;
+      }
+
+      .wrap-input-18 .search > div > input::placeholder {
+        color: #efefef;
+        opacity: 0;
+        transition: opacity 150ms ease-out;
+      }
+
+      .wrap-input-18 .search > div > input:focus::placeholder {
+        opacity: 1;
+      }
+
+      .wrap-input-18 .search > div > input:focus,
+      .wrap-input-18 .search > div > input:not(:placeholder-shown) {
+        width: 250px;
+      }
+  
+      .btn-71,
+.btn-71 *,
+.btn-71 :after,
+.btn-71 :before,
+.btn-71:after,
+.btn-71:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-71 {
+  -webkit-tap-highlight-color: 
+transparent;
+  -webkit-appearance: button;
+  background-color: 
+#000;
+  background-image: none;
+  color: 
+#fff;
+  cursor: pointer;
+
+
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-71:disabled {
+  cursor: default;
+}
+.btn-71:-moz-focusring {
+  outline: auto;
+}
+.btn-71 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-71 [hidden] {
+  display: none;
+}
+.btn-71 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 800;
+  
+  padding: 0.4rem 1.4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-71:before {
+  --opacity: 0.2;
+  aspect-ratio: 1;
+  background: 
+#fff;
+  border-radius: 50%;
+  content: "";
+  left: 50%;
+  opacity: var(--opacity);
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 100%;
+  z-index: -1;
+}
+.btn-71:hover:before {
+  -webkit-animation: enlarge 1s forwards;
+  animation: enlarge 1s forwards;
+}
+@-webkit-keyframes enlarge {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(4);
+  }
+}
+@keyframes enlarge {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(4);
+  }
+}
+      
+
+   
+      .glass {
+        position: relative;
+        padding: 50px;
+        width: 1100px;
+        height: 600px;
+        background: rgba(255, 255, 255, .1);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        border-radius: 20px;
+        
+        backdrop-filter: blur(10px);
+      }
+
+      .btn-72,
+.btn-72 *,
+.btn-72 :after,
+.btn-72 :before,
+.btn-72:after,
+.btn-72:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-72 {
+  -webkit-tap-highlight-color: 
+transparent;
+  -webkit-appearance: button;
+  background-color: 
+#000;
+  background-image: none;
+  color: 
+#fff;
+  cursor: pointer;
+
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-72:disabled {
+  cursor: default;
+}
+.btn-72:-moz-focusring {
+  outline: auto;
+}
+.btn-72 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-72 [hidden] {
+  display: none;
+}
+.btn-72 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 0.4rem 1.4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-72:before {
+  --opacity: 0.2;
+  aspect-ratio: 1;
+  background: 
+#fff;
+  border-radius: 50%;
+  content: "";
+  left: 50%;
+  opacity: var(--opacity);
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 100%;
+  z-index: -1;
+}
+.btn-72:hover:before {
+  -webkit-animation: enlarge 1s forwards;
+  animation: enlarge 1s forwards;
+}
+@-webkit-keyframes enlarge {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(4);
+  }
+}
+@keyframes enlarge {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(4);
+  }
+}
